@@ -4,15 +4,15 @@
 
 # Site
 title: Yeling的博客
-subtitle: 胆小认生，不易相处
-description: 码农，不穿格子衫。 
+subtitle: 不穿格子衫
+description: 码农，Java服务端菜鸟一枚。
 author: Yeling
 email: 286772912@qq.com
 keywords: "服务端,java,Spring,mysql,redis,程序猿,开源,架构,用户体验"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: //blog.hyfzc.cn
+url: //www.hyfzc.cn
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
