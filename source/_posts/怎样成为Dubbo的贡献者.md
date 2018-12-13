@@ -1,9 +1,9 @@
 ---
 title: 怎样成为dubbo的贡献者
-date: 2018-11-27 21:11:50
+date: 2018-11-17 21:11:50
 tags:  
     - github
-    - dubbo
+    - Dubbo
 ---
 
 ## 一.关系图
