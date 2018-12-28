@@ -255,4 +255,6 @@ protected Optional<ElasticJob> createElasticJobInstance() {
 
 - 优点，任务流程清晰，为后面的任务调度，选主，分片，zk监听等功能提供了很好的支持。
 
-- 疑问点：看第一个导图，在一个任务创建了太多的重复类，每一种service服务都应该以jobName为key对应的单个Service实现。是否可以优化？
+- 疑问点，看第一个导图，在一个任务创建了太多的重复类，都是内部new出对象。我理解框架不想耦合当前的ioc的框架做出的妥协，但是可否自实现一些简单的功能。
+
+- 建议，其实在阅读dubbo源码时，dubbo当时也存在相同的问题。dubbo的SPI个人觉得值得学习，可否改造出一版elastic-job版本的SPI，CoordinatorRegistryCenter regCenter或许就不用全框架内传递了。
